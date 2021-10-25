@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar{
+
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height:9vh;
+    margin:0 auto;
+}
+.container-nav{
+    display:flex;
+    color: #fff;
+    width: 90%;
+    height:100%;
+    justify-content:center;
+    align-items: center;
+    margin:0 auto;
+}
+.logo{
+     font-size: 32px;
+     margin: 0;
+    padding: 0;
+     line-height: 1;
+     font-weight: 700;
+     letter-spacing: 2px;
+     flex:1;
+     text-decoration: none;
+     color: #fff;
+}
+.nav-ul{
+    flex: 2;
+   
+    display:flex;
+}
+.nav-ul li,
+.nav-ul2 li{
+    list-style: none;
+    position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+.nav-ul2{
+    flex:1;
+    display:flex;
+  
+}
+.nav-ul li a ,
+.nav-ul2 li a{
+    text-decoration:none;
+    color: #fff;
+    transition: all .5s;
+
+}
+.nav-link.usuario{
+    font-size:12px;
+}
+.btn{
+ border-radius: 10px;
+ background:skyblue;
+ color:#fff;
+ padding: 2px 5px;
+ cursor:pointer;
+ transition:all .3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.nav-ul li a:hover,
+.nav-ul2 li a:hover{
+    color: skyblue;
+}
+
+.container-inicio{
+    width: 100%;
+    height:90vh;
+    background: url(../img/o.jpg) top center ;
+    background-size: cover;
+    position: relative;
+   
+}
+.container-inicio .back{
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,.6);
+     
+}
+
+.text-center{
+    position:relative;
+    margin:0 auto;
+    text-align:center;
+    width:60%;
+    height:100%;
+    padding-top: 74px;
+    color:#fff;
+    
+}
+.text-center h1{
+        
+        margin: 0;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 64px;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+    
+}
+.text-center h2{
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+.nosotros{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    width:80%;
+    height:80vh;
+    margin:0 auto ;
+}
+.nosotros img{
+   max-width:100%;
+   height:auto;
+}
+.nosotros-p{
+    margin-right:20px;
+}
+.nosotros-p h1{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; 
+}
+.nosotros-p ul{
+    list-style: none;
+    padding: 0;
+}
+.nosotros-p li{
+    padding: 0 0 8px 26px;
+    position: relative;
+    line-height:25px;
+    text-align: justify;
+}
+.nosotros-p li i{
+    position: absolute;
+  font-size: 15px;
+  left: 0;
+  top: 5px;
+  color: skyblue;
+}
